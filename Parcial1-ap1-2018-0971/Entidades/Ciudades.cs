@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Parcial1_ap1_2018_0971.Entidades
 {
-    class Ciudades
+    public class Ciudades
     {
         [Key]
         public int CiudadId { get; set; }
