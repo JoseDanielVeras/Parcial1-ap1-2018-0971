@@ -17,5 +17,9 @@ namespace Parcial1_ap1_2018_0971
             InitializeComponent();
         }
 
+        private void NombreTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
