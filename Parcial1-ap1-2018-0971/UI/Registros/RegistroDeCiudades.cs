@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Parcial1_ap1_2018_0971
 {
-    public partial class Form1 : Form
+    public partial class RegistroDeCiudades : Form
     {
-        public Form1()
+        public RegistroDeCiudades()
         {
             InitializeComponent();
         }
