@@ -127,7 +127,7 @@ namespace Parcial1_ap1_2018_0971
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(313, 223);
+            this.ClientSize = new System.Drawing.Size(313, 230);
             this.Controls.Add(this.NuevoButton);
             this.Controls.Add(this.GuardarButton);
             this.Controls.Add(this.EliminarButton);
