@@ -88,7 +88,7 @@ namespace Parcial1_ap1_2018_0971
             // 
             this.EliminarButton.Image = ((System.Drawing.Image)(resources.GetObject("EliminarButton.Image")));
             this.EliminarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.EliminarButton.Location = new System.Drawing.Point(209, 158);
+            this.EliminarButton.Location = new System.Drawing.Point(209, 159);
             this.EliminarButton.Name = "EliminarButton";
             this.EliminarButton.Size = new System.Drawing.Size(75, 30);
             this.EliminarButton.TabIndex = 5;
@@ -99,11 +99,14 @@ namespace Parcial1_ap1_2018_0971
             // 
             // GuardarButton
             // 
-            this.GuardarButton.Location = new System.Drawing.Point(127, 158);
+            this.GuardarButton.Image = ((System.Drawing.Image)(resources.GetObject("GuardarButton.Image")));
+            this.GuardarButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.GuardarButton.Location = new System.Drawing.Point(119, 159);
             this.GuardarButton.Name = "GuardarButton";
-            this.GuardarButton.Size = new System.Drawing.Size(70, 30);
+            this.GuardarButton.Size = new System.Drawing.Size(75, 30);
             this.GuardarButton.TabIndex = 6;
             this.GuardarButton.Text = "Guardar";
+            this.GuardarButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.GuardarButton.UseVisualStyleBackColor = true;
             this.GuardarButton.Click += new System.EventHandler(this.GuardarButton_Click);
             // 
