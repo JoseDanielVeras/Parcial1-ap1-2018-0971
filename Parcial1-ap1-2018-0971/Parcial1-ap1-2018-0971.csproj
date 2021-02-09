@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
+	  <StarWorkingDirectory>$(MSBuildProjecyDirectory)</StarWorkingDirectory>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Parcial1_ap1_2018_0971</RootNamespace>
@@ -28,6 +29,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="GestionCiudades.Db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
