@@ -82,8 +82,10 @@ namespace Parcial1_ap1_2018_0971
 
         private void GuardarButton_Click(object sender, EventArgs e)
         {
-            Ciudades ciudades;
+            Ciudades ciudades = new Ciudades();
             bool paso = false;
+            int id = (int)CiudadIdNumericUpDown.Value;
+            string nombres = NombreTextBox.Text;
 
             if (!Validar())
                 return;
@@ -91,6 +93,11 @@ namespace Parcial1_ap1_2018_0971
 
             if (CiudadIdNumericUpDown.Value != 0)
             {
+                if(CiudadesBLL.ExisteNombre(id, nombres))
+                {
+                    MessageBox.Show("Esta Ciudad Ya Existe.");
+                    return;
+                }
                 paso = CiudadesBLL.Guardar(ciudades);
                 MessageBox.Show("Ciudad Guardada.");
             }
